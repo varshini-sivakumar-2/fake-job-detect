@@ -1,14 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, AlertTriangle, CheckCircle, BookOpen, Eye, Mail, DollarSign, Globe, Users } from "lucide-react";
 
-const tips = [
-  { icon: Building2Placeholder, title: "Research the Company", description: "Always verify the company exists on LinkedIn, Glassdoor, and official websites. Look for a professional web presence, employee reviews, and registration details.", color: "text-primary" },
-  { icon: Building2Placeholder, title: "Check the Email Domain", description: "Legitimate companies use corporate email domains (@company.com). Be suspicious of free email services like Gmail, Yahoo, or Hotmail for official communications.", color: "text-warning" },
-  { icon: Building2Placeholder, title: "Never Pay to Apply", description: "Real employers never ask for money. If a job requires registration fees, training fees, or equipment purchases, it's likely a scam.", color: "text-destructive" },
-  { icon: Building2Placeholder, title: "Beware of Vague Descriptions", description: "Legitimate postings detail responsibilities, qualifications, and company info. Scams use generic language like 'easy money' or 'work from home'.", color: "text-accent" },
-  { icon: Building2Placeholder, title: "Verify Contact Methods", description: "Professional recruiters use company email and phone. Be wary of WhatsApp, Telegram, or personal phone numbers as primary contact methods.", color: "text-primary" },
-  { icon: Building2Placeholder, title: "Check Salary Expectations", description: "If the salary seems too good to be true for the role and experience level, it probably is. Research market rates for similar positions.", color: "text-success" },
-];
 
 const redFlags = [
   "Job posting has many spelling and grammar errors",
